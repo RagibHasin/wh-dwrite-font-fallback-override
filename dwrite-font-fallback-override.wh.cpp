@@ -3,10 +3,14 @@
 // @name            DirectWrite Font Fallback Override
 // @description     Intercepts DirectWrite font fallback to replace fonts for specific characters
 // @version         1.0
+// @license         MIT
 // @author          Muhammad Ragib Hasin
 // @github          https://github.com/RagibHasin
-// @include         notepad.exe
-// @compilerOptions -ldwrite -lole32 -lwindowsapp --optimize=0 -glldb
+// @include         *
+// @exclude         vscodium.exe
+// @exclude         mspaint.exe
+// @exclude         SystemSettings.exe
+// @compilerOptions -ldwrite -lole32 -lwindowsapp
 // ==/WindhawkMod==
 
 // ==WindhawkModReadme==
